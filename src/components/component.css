@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Ramabhadra-Regular;
+    src: url(../font/Ramabhadra-Regular.ttf);
+}
+
+body {
+    background-color: #689797;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    font-family: Ramabhadra-Regular;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    text-align: center;
+
+}
+
+/* input {
+    display: block;
+    padding: 10px 60px 10px 15px;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #ffffff ;
+    background: transparent;
+} */
+
+.input-group {
+    display: flex;
+    position: relative;
+    border-bottom: 2px solid #ffffff ;
+    margin: 30px 0;
+}
+
+.input-group input {
+    width: 300px;
+    height: 35px;
+    font-size: 16px;
+    color:white;
+    padding: 0 5px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: .5s;
+    font-weight: 600;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+    top: -5px;
+}
+
+.showpass {
+    margin-top: -15px;
+    margin-bottom: 18px;
+}
+
+.showpass label {
+    font-size: 13px;
+    margin-left: 2px;
+    font-weight: 600;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    background-color: blue;
+    font-weight: bold;
+}
+
+.signup-main .SignUp  {
+    transform: scale(0);
+    position: absolute;
+    top: 0;
+}
+
+.main.active  .signin-main .Signin  {
+    transform: scale(0);
+}
+
+.main {
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.3);  
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.SignUp {
+    padding: 15px 30px 15px 30px;
+}
+
+.checkbox {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.signbtn {
+    justify-content: center;
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: -6px;
+}
+
+.alogin {
+    margin-top: 12px;
+    /* margin-bottom: 15px; */
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.asignup {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input.checkbox {
+    margin-left: 1px;
+    accent-color: #000000;
+}
+
+label {
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+.loginback {
+    text-decoration: none;
+    color: rgb(15, 28, 199);
+    font-weight: bold;
+}
